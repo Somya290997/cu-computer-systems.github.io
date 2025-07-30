@@ -10,13 +10,13 @@
   url: /people/index.html
   sublinks:
     - title: Faculty
-      url: /people/faculty.html
+      url: /people/faculty/
     - title: Postdocs 
       url: /people/postdocs.html
     - title: Students
       url: /people/students.html
-    - title: Alumni
-      url: /people/alumni.html
+#    - title: Alumni
+#      url: /people/alumni.html
 - title: Contact
   url: /contact.html
 - title: Projects

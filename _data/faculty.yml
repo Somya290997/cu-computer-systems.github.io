@@ -1,0 +1,63 @@
+- name: Christine Lv
+  image_url: /assets/img/faculty/christine.png
+  office: ECCR 1b26, Engineering Center
+  phone: (303) 492-9344
+  areas: Systems, Algorithms, Data analytics in ubiquitous computing, Social
+  website: https://www.cs.colorado.edu/~lv/
+
+- name: Dirk Grunwald
+  image_url: /assets/img/faculty/dirk-head.png
+  office: ECCR 1b20, Engineering Center
+  phone: (303) 492-0452
+  areas: Mobile, Networks, Security, Storage
+  website: /people/faculty/dirk_grunwald
+  linkedin: https://www.linkedin.com/in/dirk-grunwald-7735202
+
+- name: Sangtae Ha
+  image_url: /assets/img/faculty/sangtaeha.png
+  office: ECCR 1b14, Engineering Center
+  phone: (303) 492-xxx
+  areas: Systems, Networks, Protocols, Wireless, Mobile, Storage, Cloud, Fog/Edge, Pricing
+  website: http://netstech.org/sangtaeha/
+
+- name: Joe Izraelevitz
+  image_url: /assets/img/faculty/izraelevitz.png
+  office: ECOT 351, The Office Tower
+  phone: (303) 492-7327
+  areas: Systems Software, Nonvolatile Memory, Storage, Hardware
+  website: https://www.colorado.edu/faculty/izraelevitz
+
+- name: Eric Keller
+  image_url: /assets/img/faculty/keller.png
+  office: ECCR 1b26, Engineering Center
+  phone: (303) 492-9344
+  areas: Systems, Networks, Security, Entrepreneurship
+  website: https://eric-keller.github.io
+
+- name: Tamara Silbergleit Lehman
+  image_url: /assets/img/faculty/lehman.png
+  office: ECOT 353, The Office Tower
+  phone: (303) 735-5528
+  areas: Computer Architecture, Hardware Security, Memory Systems, Datacenter Architectures
+  website: https://www.colorado.edu/faculty/lehmantamara
+
+- name: Lijun Chen
+  image_url: /assets/img/faculty/lijun.png
+  office: ECCR 1b26, Engineering Center
+  phone: (303) 492-9344
+  areas: Networks, Optimization, Game theory, Systems theory
+  website: https://spot.colorado.edu/~lich1539/
+
+- name: Shivakant Mishra
+  image_url: /assets/img/faculty/shiv.png
+  office: ECCR 1b26, Engineering Center
+  phone: (303) 492-9344
+  areas: Systems, Networks, IoT, Cybersafety, Social
+  website: https://www.cs.colorado.edu/~mishras/
+
+- name: Eric Wustrow
+  image_url: /assets/img/faculty/wustrow.png
+  office: ECCR 1b26, Engineering Center
+  phone: (734) 330-8702
+  areas: Security, Networks, Measurement, Anticensorship
+  website: https://ericw.us/trow/
