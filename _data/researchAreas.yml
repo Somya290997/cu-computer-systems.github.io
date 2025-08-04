@@ -1,0 +1,33 @@
+- title: Hardware
+  caption: Computer Hardware and Architecture
+  description: >
+    As computing devices become an essential part of our lives, the physical machines need to be better protected. Software alone is not longer able to detect and prevent attacks. At CU Boulder we are looking at innovative ways to improved computer security from the hardware up. By combining hardware and software, computing devices can protect users from a wider array of threats.
+  url: /areas/hardware
+
+- title: Mobile
+  caption: Mobile and Wireless Networks
+  description: >
+    Mobile devices and wireless networks are how most people connect to the internet.
+  url: /areas/mobile
+
+- title: Networking
+  caption: Datacenter and Wide-area Networks
+  description: >
+    Computer networks are core to the operation of datacenters and the networks that extend from them.
+  url: /areas/networks
+
+- title: Security
+  caption: Computer Security
+  description: >
+  url: /areas/security
+
+- title: Social
+  caption: Social Network Analysis
+  description: >
+    We are conducting research on a variety of social computing and networking topics, including strengthening democracy by examining the influence of state-sponsored bots on social networks, exploring the role of social context in making recommendations to groups of mobile users, and seeking to make the Internet safer for its users by detecting cyberbullying using machine learning.
+  url: /areas/social
+
+- title: Storage
+  caption: Datacenter Storage Technology and Organization
+  description: >
+  url: /areas/storage

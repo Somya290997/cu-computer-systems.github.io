@@ -1,0 +1,83 @@
+<!--<section id="research-areas" class="section-global-wrapper">-->
+<!--    <div class="container">-->
+<!--        <h1 class="title-text">Research Areas</h1><hr/>-->
+<!--        <div class="area-list">-->
+<!--            {% assign faculty_list = site.data.faculty %}-->
+<!--            {% for area in site.data.researchAreas %}-->
+<!--            <div class="services-group wow animated fadeIn{% if forloop.index0 % 2 == 0 %}Left{% else %}Right{% endif %}" data-wow-offset="40" style="margin-bottom: 40px;">-->
+<!--&lt;!&ndash;            <div class="services-group wow animated fadeIn{% if forloop.index0 % 2 == 0 %}Left{% else %}Right{% endif %}" data-wow-offset="40">&ndash;&gt;-->
+<!--            <h2>-->
+<!--                    {% case area.title %}-->
+<!--                    {% when "Networking" %}-->
+<!--                    <span class="fas fa-network-wired"></span>-->
+<!--                    {% when "Mobile" %}-->
+<!--                    <span class="fa fa-broadcast-tower"></span>-->
+<!--                    {% when "Security" %}-->
+<!--                    <span class="fa fa-user-lock"></span>-->
+<!--                    {% when "Storage" %}-->
+<!--                    <span class="fa fa-save"></span>-->
+<!--                    {% when "Hardware" %}-->
+<!--                    <span class="fa fa-microchip"></span>-->
+<!--                    {% when "Social" %}-->
+<!--                    <span class="fa fa-project-diagram"></span>-->
+<!--                    {% endcase %}-->
+<!--                    {{ area.caption }}-->
+<!--                </h2>-->
+<!--                <p>{{ area.description }}</p>-->
+<!--                <div class="area-list-faculty">-->
+<!--                    Faculty:-->
+<!--                    {% assign folks_area = area.title %}-->
+<!--                    {% include folks_by_area %}-->
+<!--                </div>-->
+<!--            </div>-->
+<!--            {% endfor %}-->
+<!--        </div>-->
+<!--    </div>-->
+<!--</section>-->
+<section id="research-areas" class="section-global-wrapper">
+    <div class="container">
+        <h1 class="title-text">Research Areas</h1>
+        <hr/>
+        <div class="area-list">
+            {% assign faculty_list = site.data.faculty %}
+            {% for area in site.data.researchAreas %}
+            <div class="services-group wow animated fadeIn{% if forloop.index0 % 2 == 0 %}Left{% else %}Right{% endif %}" data-wow-offset="40" style="margin-bottom: 40px;">
+                <h2>
+                    {% case area.title %}
+                    {% when "Networking" %}<span class="fas fa-network-wired"></span>
+                    {% when "Mobile" %}<span class="fa fa-broadcast-tower"></span>
+                    {% when "Security" %}<span class="fa fa-user-lock"></span>
+                    {% when "Storage" %}<span class="fa fa-save"></span>
+                    {% when "Hardware" %}<span class="fa fa-microchip"></span>
+                    {% when "Social" %}<span class="fa fa-project-diagram"></span>
+                    {% endcase %}
+                    {{ area.caption }}
+                </h2>
+                <p>{{ area.description }}</p>
+
+                <div class="area-list-faculty">
+<!--                    <strong>Faculty:</strong>-->
+<!--                    <ul>-->
+<!--                        {% for faculty in faculty_list %}-->
+<!--                        {% if faculty.areas contains area.title %}-->
+<!--                        <li>{{ faculty.name }}</li>-->
+<!--                        {% endif %}-->
+<!--                        {% endfor %}-->
+<!--                    </ul>-->
+                    <strong>Faculty:</strong>
+                    {% assign faculty_names = "" %}
+                    {% for faculty in faculty_list %}
+                    {% if faculty.areas contains area.title %}
+                    {% if faculty_names != "" %}
+                    {% assign faculty_names = faculty_names | append: ", " %}
+                    {% endif %}
+                    {% assign faculty_names = faculty_names | append: faculty.name %}
+                    {% endif %}
+                    {% endfor %}
+                    {{ faculty_names }}
+                </div>
+            </div>
+            {% endfor %}
+        </div>
+    </div>
+</section>
