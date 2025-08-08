@@ -1,0 +1,27 @@
+---
+layout: default_style
+title: gallery
+---
+<!-- Gallery Title -->
+<div class="container">
+    <h1 class="title-text">Gallery</h1>
+    <hr />
+</div>
+
+<!-- Gallery Content -->
+<div class="container">
+    {% for item in site.data.gallery %}
+    <div class="row" style="margin-bottom: 40px;">
+        <div class="col-md-6">
+            <img src="{{ item.image_url }}" alt="{{ item.title }}" class="img-responsive" style="width: 100%; border-radius: 8px;">
+        </div>
+        <div class="col-md-6 d-flex align-items-center">
+            <div>
+                <h3>{{ item.title }}</h3>
+                <p>{{ item.description }}</p>
+            </div>
+        </div>
+    </div>
+    {% endfor %}
+</div>
+

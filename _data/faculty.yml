@@ -1,127 +1,73 @@
 - name: Yueqi Chen
-  image_url: /assets/img/faculty/yueqi.png
+  image_url: /assets/img/faculty/yueqi-chen.jpeg
   areas:
-    - Systems
-    - Security
-    - Software Security
-    - Operating Systems
-    - Cryptography
-    - Exploit Formalization
+    - Systems & Software Security
   website: http://cusecurity.cs.colorado.edu/yueqichen/
 
 - name: Lijun Chen
   image_url: /assets/img/faculty/lijun.png
-  #  office: ECCR 1b26, Engineering Center
-  #  phone: (303) 492-9344
   areas:
-    - Networks
-    - Optimization
-    - Game theory
-    - Systems theory
+    - Control & Optimization of Complex Systems
   website: https://spot.colorado.edu/~lich1539/
 
 - name: Dirk Grunwald
   image_url: /assets/img/faculty/dirk-head.png
-  #  office: ECCR 1b20, Engineering Center
-  #  phone: (303) 492-0452
   areas:
-    - Mobile
-    - Networks
-    - Security
-    - Storage
-  website: /people/faculty/dirk_grunwald
+    - Networking, Wireless & Mobile Systems
+    - Systems & Software Security
+    - Storage, Memory & Nonvolatile Systems
+  website: https://www.colorado.edu/cs/dirk-grunwald
   linkedin: https://www.linkedin.com/in/dirk-grunwald-7735202
 
 - name: Sangtae Ha
   image_url: /assets/img/faculty/sangtaeha.png
-  #  office: ECCR 1b14, Engineering Center
-  #  phone: (303) 492-xxx
   areas:
-    - Systems
-    - Networks
-    - Protocols
-    - Wireless
-    - Mobile
-    - Storage
-    - Cloud
-    - Fog/Edge
-    - Pricing
+    - Networking, Wireless & Mobile Systems
+    - Machine Learning Systems & Infrastructure
+    - Storage, Memory & Nonvolatile Systems
   website: http://netstech.org/sangtaeha/
 
 - name: Joe Izraelevitz
   image_url: /assets/img/faculty/izraelevitz.png
-  #  office: ECOT 351, The Office Tower
-  #  phone: (303) 492-7327
   areas:
-    - Systems Software
-    - Nonvolatile Memory
-    - Storage
-    - Hardware
+    - Hardware & Microarchitectural Security
+    - Storage, Memory & Nonvolatile Systems
   website: https://www.colorado.edu/faculty/izraelevitz
 
 - name: Eric Keller
   image_url: /assets/img/faculty/keller.png
-  #  office: ECCR 1b26, Engineering Center
-  #  phone: (303) 492-9344
   areas:
-    - Systems
-    - Networks
-    - Security
-    - Entrepreneurship
+    - Networking, Wireless & Mobile Systems
   website: https://eric-keller.github.io
 
 - name: Tamara Silbergleit Lehman
   image_url: /assets/img/faculty/lehman.png
-  #  office: ECOT 353, The Office Tower
-  #  phone: (303) 735-5528
   areas:
-    - Computer Architecture
-    - Hardware Security
-    - Memory Systems
-    - Datacenter Architectures
+    - Hardware & Microarchitectural Security
   website: https://www.colorado.edu/faculty/lehmantamara
 
 - name: Christine Lv
   image_url: /assets/img/faculty/christine.png
-#  office: ECCR 1b26, Engineering Center
-#  phone: (303) 492-9344
   areas:
-    - Systems
-    - Algorithms
-    - Data analytics in ubiquitous computing
-    - Social
+    - Data & IoT Analytics
+    - Privacy, Policy & Social Computing
   website: https://www.cs.colorado.edu/~lv/
 
 - name: Shivakant Mishra
   image_url: /assets/img/faculty/shiv.png
-#  office: ECCR 1b26, Engineering Center
-#  phone: (303) 492-9344
   areas:
-    - Systems
-    - Networks
-    - IoT
-    - Cybersafety
-    - Social
+    - Data & IoT Analytics
+    - Privacy, Policy & Social Computing
   website: https://www.cs.colorado.edu/~mishras/
 
 - name: Eric Wustrow
   image_url: /assets/img/faculty/wustrow.png
-#  office: ECCR 1b26, Engineering Center
-#  phone: (734) 330-8702
   areas:
-    - Security
-    - Networks
-    - Measurement
-    - Anticensorship
+    - Systems & Software Security
   website: https://ericw.us/trow/
 
 - name: Mark Zhao
-  image_url: /assets/img/faculty/markzhao.png
+  image_url: /assets/img/faculty/mark-zhao.jpeg
   areas:
-    - Systems
-    - Machine Learning Systems
-    - Large-scale ML Training
-    - Scalable Infrastructure
-    - ML Deployment
-    - Security
+    - Machine Learning Systems & Infrastructure
   website: https://home.cs.colorado.edu/~myzhao/

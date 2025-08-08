@@ -1,33 +1,110 @@
-- title: Hardware
-  caption: Computer Hardware and Architecture
+- title: Systems & Software Security
+  caption: Systems & Software Security
+  tags:
+    - Systems
+    - Security
+    - Software Security
+    - Exploit Formalization
+    - Operating Systems
   description: >
-    As computing devices become an essential part of our lives, the physical machines need to be better protected. Software alone is not longer able to detect and prevent attacks. At CU Boulder we are looking at innovative ways to improved computer security from the hardware up. By combining hardware and software, computing devices can protect users from a wider array of threats.
-  url: /areas/hardware
+    Our lab analyzes how low-level flaws in kernels, hypervisors, and cryptographic libraries move from “just a crash” to a full exploit. 
+    We formalize these exploit paths to triage vulnerability severity automatically and concentrate defenses where they matter most.
+    By examining weird machines—unintended computational behaviors hidden inside software—we uncover new attack surfaces and craft lightweight mitigations that bring memory- and type-safety to production code with minimal overhead.
+    We’ve developed censorship-resistant proxy tools that maintain connectivity under challenging conditions.
+    Check out Prof. Yueqi Chen’s (https://cusecurity.cs.colorado.edu/yueqichen/) and Prof. Eric Wustrow’s (https://ericw.us/trow/) websites to learn more.
 
-- title: Mobile
-  caption: Mobile and Wireless Networks
+- title: Hardware & Microarchitectural Security
+  caption: Hardware & Microarchitectural Security
+  tags:
+    - Hardware
+    - Hardware Security
+    - Computer Architecture
+    - Memory Systems
   description: >
-    Mobile devices and wireless networks are how most people connect to the internet.
-  url: /areas/mobile
+    We design cryptographically protected cache architectures that render side-channel attacks infeasible. 
+    Novel firmware-hardware co-designs isolate sensitive states in non-volatile memory, preventing rollback and replay exploits. 
+    Our teams prototype power-analysis countermeasures on FPGA platforms. Current efforts explore secure enclaves for untrusted accelerators.
+    Check out Prof. Tamara Lehman’s (https://www.colorado.edu/faculty/lehmantamara) and Prof. Joe Izraelevitz’s (https://www.colorado.edu/faculty/izraelevitz) websites to learn more.
 
-- title: Networking
-  caption: Datacenter and Wide-area Networks
+- title: Networking, Wireless & Mobile Systems
+  caption: Networking, Wireless & Mobile Systems
+  tags:
+    - Networks
+    - Networking
+    - Wireless
+    - Mobile
+    - Protocols
   description: >
-    Computer networks are core to the operation of datacenters and the networks that extend from them.
-  url: /areas/networks
+    Researchers in the lab program P4-enabled switches to enforce fine-grained access controls at line rate. 
+    We develop and evaluate congestion-control algorithms that cut datacenter tail latencies. 
+    Wireless projects span end-to-end 5G slices for real-time telemedicine and mesh-networking protocols for disaster response. 
+    Mobile-edge frameworks pre-fetch and cache critical data to support offline operation.
+    Check out Prof. Sangtae Ha’s (http://netstech.org) and Prof. Eric Keller’s (https://eric-keller.github.io) websites to learn more.
 
-- title: Security
-  caption: Computer Security
+- title: Machine Learning Systems & Infrastructure
+  caption: Machine Learning Systems & Infrastructure
+  tags:
+    - Machine Learning Systems
+    - ML Deployment
+    - Scalable Infrastructure
+    - Streaming Data
   description: >
-  url: /areas/security
+    The BASIL (https://basil.colorado.edu/) stack we’re building co-optimizes data ingestion, training, and inference across CPU, GPU, and FPGA resources. 
+    Our custom runtimes reduce end-to-end training time. Secure enclaves guard against model-extraction and adversarial-poisoning attacks. 
+    Automated profiling tools pinpoint bottlenecks in streaming-data pipelines.
+    Check out Prof. Mark Zhao’s (https://basil.colorado.edu) and Prof. Sangtae Ha’s (http://netstech.org) websites to learn more.
 
-- title: Social
-  caption: Social Network Analysis
+- title: Data & IoT Analytics
+  caption: Data & IoT Analytics
+  tags:
+    - Data Analytics
+    - IoT
+    - Social
+    - Distributed Learning
   description: >
-    We are conducting research on a variety of social computing and networking topics, including strengthening democracy by examining the influence of state-sponsored bots on social networks, exploring the role of social context in making recommendations to groups of mobile users, and seeking to make the Internet safer for its users by detecting cyberbullying using machine learning.
-  url: /areas/social
+    We’ve created frameworks that fuse multimodal sensor data on low-power IoT nodes for real-time anomaly detection in agriculture and industrial settings. 
+    Distributed learning algorithms adapt models on-device to shifting environmental conditions without raw data leaving the field. 
+    Cloud back-ends aggregate insights to optimize resource allocation. Social-media mining tools identify and visualize coordinated inauthentic behavior.
+    Check out Prof. Qin (Christine) Lv’s (https://home.cs.colorado.edu/~lv/) and Prof. Shivakant Mishra’s (https://mishra904.github.io) websites to learn more.
 
-- title: Storage
-  caption: Datacenter Storage Technology and Organization
+- title: Storage, Memory & Nonvolatile Systems
+  caption: Storage, Memory & Nonvolatile Systems
+  tags:
+    - Storage
+    - Nonvolatile Memory
+    - Persistent Memory
+    - Systems Software
   description: >
-  url: /areas/storage
+    Our lab’s distributed file system combines erasure coding with adaptive caching to deliver sub-millisecond reads at petabyte scale. 
+    Persistent-memory libraries expose byte-addressable durability without expensive checkpointing. 
+    Hybrid hierarchies of DRAM, NAND-flash, and emerging phase-change memory are benchmarked under real datacenter workloads. 
+    Tail-latency mitigation techniques balance throughput against fairness.
+    Check out Prof. Joe Izraelevitz’s (https://www.colorado.edu/faculty/izraelevitz) and Prof. Sangtae Ha’s (http://netstech.org) websites to learn more.
+
+- title: Control & Optimization of Complex Systems
+  caption: Control & Optimization of Complex Systems
+  tags:
+    - Control
+    - Optimization
+    - Systems Theory
+    - Distributed Systems
+  description: >
+    We develop distributed consensus and control protocols that maintain stability under network partitions and variable delays. 
+    Learning-based controllers automatically tune parameters in smart-grid and vehicular networks. 
+    Resource-allocation schedulers optimize CPU, memory, and network slices to meet end-to-end QoS guarantees.
+    Check out Prof. Lijun Chen’s (https://spot.colorado.edu/~lich1539/) website to learn more.
+
+- title: Privacy, Policy & Social Computing
+  caption: Privacy, Policy & Social Computing
+  tags:
+    - Privacy
+    - Social Computing
+    - Fairness
+    - Misinformation
+    - Policy
+  description: >
+    Differential-privacy libraries add provable noise to large-scale analytics, balancing utility against individual risk. 
+    Policy-aware query planners enforce data-access constraints mandated by regulations like GDPR. 
+    We’ve built dashboards that visualize fairness metrics across demographic groups. 
+    Trace-analysis tools map the spread of misinformation and bot-driven campaigns in real time.
+    Check out Prof. Qin (Christine) Lv’s (https://home.cs.colorado.edu/~lv/) and Prof. Shivakant Mishra’s (https://mishra904.github.io) websites to learn more.

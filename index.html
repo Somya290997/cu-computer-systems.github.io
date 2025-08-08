@@ -3,19 +3,27 @@ layout: default_style
 ---
 
 <body>
-
-
-<!-- Lab banner image (below header) -->
-<div class="container text-center" style="margin-top: 20px;">
+<div class="text-center" style="margin-top: 10px;">
+    <a href="#about" class="text-primary" style="margin-right: 15px;"><strong>About</strong></a>
+    <a href="#research-areas" class="text-primary" style="margin-right: 15px;"><strong>Research Areas</strong></a>
+    <a href="#faculty" class="text-primary" style="margin-right: 15px;"><strong>Faculty</strong></a>
+    <a href="/gallery" class="text-primary" style="margin-right: 15px;"><strong>Gallery</strong></a>
+    <a href="#contact" class="text-primary"><strong>Contact Us</strong></a>
+</div>
+<!-- Lab banner image -->
+<div class="container text-center" style="margin-top: 20px; margin-bottom: 20px;">
     <img src="/assets/img/banner.jpg" alt="Lab Group Photo" class="img-responsive" style="max-width: 100%; height: auto;">
 </div>
 
-<section id="about" class="container py-5">
-    <h2 class="section-title text-center"> About Computer Systems Lab @ CU</h2>
-        <p>The Computer Systems Lab at CU consists of about 14 faculty whose expertise generally lies in building practical computer systems.</p>
-        <p> Most of the Systems faculty are co-located in a single large lab with their students.</p>
-        <p>Students and faculty receive funding for and work in areas including large scale network systems; cloud and edge computing; distributed systems; virtualization; wireless and mobile systems including IoT, drones, and sensors; privacy preserving networks; network security and anticensorship; computer architecture security; autonomous and software-defined networks; automotive and telematics systems; social computing; data analytics; distributed and embedded machine learning and computer vision; and cybersafety and cyberbullying.</p>
 
+<!-- About Section -->
+<section id="about" class="section-global-wrapper">
+    <div class="container">
+        <h2 class="title-text">About Computer Systems Lab @ CU</h2>
+        <hr />
+        <p>The Computer Systems Lab at CU consists of about 14 faculty whose expertise generally lies in building practical computer systems.</p>
+        <p>Most of the Systems faculty are co-located in a single large lab with their students.</p>
+        <p>Students and faculty receive funding for and work in areas including large scale network systems; cloud and edge computing; distributed systems; virtualization; wireless and mobile systems including IoT, drones, and sensors; privacy preserving networks; network security and anticensorship; computer architecture security; autonomous and software-defined networks; automotive and telematics systems; social computing; data analytics; distributed and embedded machine learning and computer vision; and cybersafety and cyberbullying.</p>
     </div>
 </section>
 
@@ -33,7 +41,8 @@ layout: default_style
         <div class="row">
             {% for prof in site.data.faculty %}
             <div class="col-md-4 col-sm-6">
-                <div class="card faculty-card" style="margin-bottom: 30px; padding: 20px; border: 1px solid #ccc; border-radius: 10px; text-align: center;">
+                <div class="card faculty-card d-flex flex-column justify-content-between"
+                     style="min-height: 370px; display: flex; flex-direction: column; justify-content: space-between; margin-bottom: 30px; padding: 20px; border: 1px solid #ccc; border-radius: 10px; text-align: center;">
 
                     {% if prof.image_url %}
                     <img src="{{ prof.image_url }}" alt="{{ prof.name }}" style="width: 120px; height: 120px; object-fit: cover; border-radius: 50%; margin-bottom: 15px;">
@@ -46,12 +55,54 @@ layout: default_style
                     {% if prof.website %}
                     <p><a href="{{ prof.website }}" target="_blank">Website</a></p>
                     {% endif %}
+
+                    {% if prof.areas %}
+                        {% for area in prof.areas %}
+                        {{ area }}{% if forloop.last == false %}, {% endif %}
+                        {% endfor %}
+                    </p>
+                    {% endif %}
                 </div>
             </div>
             {% endfor %}
         </div>
     </div>
 </section>
+
+
+<!-- Students -->
+<!--<section id="students" class="section-global-wrapper">-->
+<!--    <div class="container">-->
+<!--        <h1 class="title-text">Students</h1>-->
+<!--        <hr />-->
+<!--        <div class="row">-->
+<!--            {% for student in site.data.students %}-->
+<!--            <div class="col-md-4 col-sm-6">-->
+<!--                <div class="card student-card d-flex flex-column justify-content-between"-->
+<!--                     style="height: 100%; min-height: 370px; display: flex; flex-direction: column; justify-content: space-between; margin-bottom: 30px; padding: 20px; border: 1px solid #ccc; border-radius: 10px; text-align: center;">-->
+
+<!--                    {% if student.image_url %}-->
+<!--                    <img src="{{ student.image_url }}" alt="{{ student.name }}" style="width: 120px; height: 120px; object-fit: cover; border-radius: 50%; margin-bottom: 15px;">-->
+<!--                    {% else %}-->
+<!--                    <img src="/assets/img/students/default.jpg" alt="No photo available" style="width: 120px; height: 120px; object-fit: cover; border-radius: 50%; margin-bottom: 15px; opacity: 0.5;">-->
+<!--                    {% endif %}-->
+
+<!--                    <h3 style="margin-bottom: 10px;">{{ student.name }}</h3>-->
+
+<!--                    {% if student.url %}-->
+<!--                    <p><a href="{{ student.url }}" target="_blank">Profile</a></p>-->
+<!--                    {% endif %}-->
+
+<!--                    {% if student.area %}-->
+<!--                    <p><strong>Area:</strong> {{ student.area }}</p>-->
+<!--                    {% endif %}-->
+<!--                </div>-->
+<!--            </div>-->
+<!--            {% endfor %}-->
+<!--        </div>-->
+<!--    </div>-->
+<!--</section>-->
+
 
 <!-- Contact Section -->
 <section id="contact" class="section-global-wrapper">
