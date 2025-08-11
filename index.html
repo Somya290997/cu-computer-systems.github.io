@@ -52,6 +52,10 @@ layout: default_style
 
                     <h3 style="margin-bottom: 10px;">{{ prof.name }}</h3>
 
+                    {% if prof.status %}
+                    <p style="font-style: italic; font-weight: bold; color: #666; margin-bottom: 10px;">{{ prof.status }}</p>
+                    {% endif %}
+
                     {% if prof.website %}
                     <p><a href="{{ prof.website }}" target="_blank">Website</a></p>
                     {% endif %}

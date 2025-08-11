@@ -1,3 +1,9 @@
+- name: Ramin Ayanzadeh
+  image_url: /assets/img/faculty/ramin.jpeg
+  areas:
+    - Quantum Computing
+  website: https://www.colorado.edu/cs/ramin-ayanzadeh
+
 - name: Yueqi Chen
   image_url: /assets/img/faculty/yueqi-chen.jpeg
   areas:
@@ -17,6 +23,7 @@
     - Systems & Software Security
     - Storage, Memory & Nonvolatile Systems
   website: https://www.colorado.edu/cs/dirk-grunwald
+  status: Alumni
   linkedin: https://www.linkedin.com/in/dirk-grunwald-7735202
 
 - name: Sangtae Ha
