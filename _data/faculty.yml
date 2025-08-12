@@ -16,14 +16,14 @@
     - Control & Optimization of Complex Systems
   website: https://spot.colorado.edu/~lich1539/
 
-- name: Dirk Grunwald
+- name: Dirk Grunwald (Retired)
   image_url: /assets/img/faculty/dirk-head.png
   areas:
     - Networking, Wireless & Mobile Systems
     - Systems & Software Security
     - Storage, Memory & Nonvolatile Systems
   website: https://www.colorado.edu/cs/dirk-grunwald
-  status: Alumni
+#  status: Alumni
   linkedin: https://www.linkedin.com/in/dirk-grunwald-7735202
 
 - name: Sangtae Ha
