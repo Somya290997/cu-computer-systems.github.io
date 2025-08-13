@@ -828,3 +828,8 @@ footer h3 {
   display: block;
   object-fit: cover;
 }
+
+#research-areas .services-group ul {
+  padding-left: 2rem; /* move bullets right */
+  margin-top: 0.5rem;
+}
