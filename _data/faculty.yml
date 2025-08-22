@@ -23,7 +23,6 @@
     - Systems & Software Security
     - Storage, Memory & Nonvolatile Systems
   website: https://www.colorado.edu/cs/dirk-grunwald
-#  status: Alumni
   linkedin: https://www.linkedin.com/in/dirk-grunwald-7735202
 
 - name: Sangtae Ha
@@ -60,7 +59,7 @@
     - Privacy, Policy & Social Computing
   website: https://www.cs.colorado.edu/~lv/
 
-- name: Shivakant Mishra
+- name: Shivakant Mishra (On-Sabbatical)
   image_url: /assets/img/faculty/shiv.png
   areas:
     - Data & IoT Analytics
