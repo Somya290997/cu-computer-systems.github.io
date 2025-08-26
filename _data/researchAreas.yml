@@ -46,10 +46,8 @@
     - Scalable Infrastructure
     - Streaming Data
   description: |
-    - The [BASIL] (https://basil.colorado.edu/) stack we’re building co-optimizes data ingestion, training, and inference across CPU, GPU, and FPGA resources. 
-    - Our custom runtimes reduce end-to-end training time. Secure enclaves guard against model-extraction and adversarial-poisoning attacks. 
-    - Automated profiling tools pinpoint bottlenecks in streaming-data pipelines.
-
+    - We design computer systems that enable AI-powered applications across diverse domains.
+    - Our work focuses on building the core infrastructure needed to train and deploy large-scale machine learning models, applying innovations across the computing stack to make end-to-end training and inference pipelines more scalable, efficient, and secure.
 - title: Data & IoT Analytics
   caption: Data & IoT Analytics
   tags:
@@ -100,3 +98,11 @@
     - Policy-aware query planners enforce data-access constraints mandated by regulations like GDPR. 
     - We’ve built dashboards that visualize fairness metrics across demographic groups. 
     - Trace-analysis tools map the spread of misinformation and bot-driven campaigns in real time.
+
+- title: Quantum Computing
+  caption: Quantum Computing
+  tags:
+    -Quantum Computing
+  description: |
+    - We advance trustworthy quantum computing to build reliable, secure, and scalable quantum systems that bridge hardware, software, and architecture.  
+    - By harnessing superposition, entanglement, and interference, our research enables quantum computers to solve problems beyond classical limits, with transformative impact across science, engineering, and society.

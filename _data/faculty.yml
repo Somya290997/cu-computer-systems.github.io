@@ -2,7 +2,7 @@
   image_url: /assets/img/faculty/ramin.jpeg
   areas:
     - Quantum Computing
-  website: https://www.colorado.edu/cs/ramin-ayanzadeh
+  website:  https://raminayanzadeh.com/
 
 - name: Yueqi Chen
   image_url: /assets/img/faculty/yueqi-chen.jpeg
@@ -50,6 +50,8 @@
   image_url: /assets/img/faculty/lehman.png
   areas:
     - Hardware & Microarchitectural Security
+    - Privacy, Policy & Social Computing
+    - Networking, Wireless & Mobile Systems
   website: https://www.colorado.edu/faculty/lehmantamara
 
 - name: Christine Lv
