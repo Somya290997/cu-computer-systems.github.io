@@ -1,29 +1,3 @@
-- title: Systems & Software Security
-  caption: Systems & Software Security
-  tags:
-    - Systems
-    - Security
-    - Software Security
-    - Exploit Formalization
-    - Operating Systems
-  description: |
-    - Our lab analyzes how low-level flaws in kernels, hypervisors, and cryptographic libraries move from “just a crash” to a full exploit. 
-    - We formalize these exploit paths to triage vulnerability severity automatically and concentrate defenses where they matter most.
-    - By examining weird machines, unintended computational behaviors hidden inside software, we uncover new attack surfaces and craft lightweight mitigations that bring memory and type-safety to production code with minimal overhead.
-    - We’ve developed censorship-resistant proxy tools that maintain connectivity under challenging conditions.
-
-- title: Hardware & Microarchitectural Security
-  caption: Hardware & Microarchitectural Security
-  tags:
-    - Hardware
-    - Hardware Security
-    - Computer Architecture
-    - Memory Systems
-  description: |
-    - We design cryptographically protected cache architectures that render side-channel attacks infeasible. 
-    - Novel firmware-hardware co-designs isolate sensitive states in non-volatile memory, preventing rollback and replay exploits. 
-    - Our teams prototype power-analysis countermeasures on FPGA platforms. Current efforts explore secure enclaves for untrusted accelerators.
-
 - title: Networking, Wireless & Mobile Systems
   caption: Networking, Wireless & Mobile Systems
   tags:
@@ -48,6 +22,7 @@
   description: |
     - We design computer systems that enable AI-powered applications across diverse domains.
     - Our work focuses on building the core infrastructure needed to train and deploy large-scale machine learning models, applying innovations across the computing stack to make end-to-end training and inference pipelines more scalable, efficient, and secure.
+
 - title: Data & IoT Analytics
   caption: Data & IoT Analytics
   tags:
@@ -106,3 +81,30 @@
   description: |
     - We advance trustworthy quantum computing to build reliable, secure, and scalable quantum systems that bridge hardware, software, and architecture.  
     - By harnessing superposition, entanglement, and interference, our research enables quantum computers to solve problems beyond classical limits, with transformative impact across science, engineering, and society.
+
+- title: Anticensorship and Software Security
+  caption: Anticensorship and Software Security
+  tags:
+    - Systems
+    - Security
+    - Anticensorship
+    - Software Security
+    - Exploit Formalization
+    - Operating Systems
+  description: |
+    - Our lab analyzes how low-level flaws in kernels, hypervisors, and cryptographic libraries move from “just a crash” to a full exploit. 
+    - We formalize these exploit paths to triage vulnerability severity automatically and concentrate defenses where they matter most.
+    - By examining weird machines, unintended computational behaviors hidden inside software, we uncover new attack surfaces and craft lightweight mitigations that bring memory and type-safety to production code with minimal overhead.
+    - We’ve developed censorship-resistant proxy tools that maintain connectivity under challenging conditions.
+
+- title: Hardware & Microarchitectural Security
+  caption: Hardware & Microarchitectural Security
+  tags:
+    - Hardware
+    - Hardware Security
+    - Computer Architecture
+    - Memory Systems
+  description: |
+    - We design cryptographically protected cache architectures that render side-channel attacks infeasible. 
+    - Novel firmware-hardware co-designs isolate sensitive states in non-volatile memory, preventing rollback and replay exploits. 
+    - Our teams prototype power-analysis countermeasures on FPGA platforms. Current efforts explore secure enclaves for untrusted accelerators.
