@@ -5,8 +5,9 @@
         <div class="area-list">
             {% assign faculty_list = site.data.faculty %}
             {% for area in site.data.researchAreas %}
-            <div class="services-group wow animated fadeIn{% if forloop.index0 % 2 == 0 %}Left{% else %}Right{% endif %}" data-wow-offset="40" style="margin-bottom: 40px;">
-                <h2>
+<!--            <div class="services-group wow animated fadeIn{% if forloop.index0 % 2 == 0 %}Left{% else %}Right{% endif %}" data-wow-offset="40" style="margin-bottom: 40px;">-->
+            <div class="services-group" style="margin-bottom: 40px;">
+            <h2>
                     {% case area.title %}
                     {% when "Systems & Software Security" %}<span class="fa fa-shield-alt"></span>
                     {% when "Hardware & Microarchitectural Security" %}<span class="fa fa-microchip"></span>
